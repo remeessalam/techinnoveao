@@ -67,10 +67,10 @@ import { TbDeviceMobileCode } from "react-icons/tb";
 import { FaXTwitter } from "react-icons/fa6";
 
 export const companyDetails = {
-  name: "aicompany",
+  name: "Techinnoveao",
   email: "aicompany@gmail.com",
-  phone: "+91-0000000000",
-  address: "company address",
+  phone: "+91-9810600446",
+  address: "5/203-B lalita park laxmi nagar delhi 110092",
   socialLinks: [
     {
       href: "",
@@ -283,17 +283,17 @@ export const visionAndMission = [
   {
     title: "Our Vision",
     description:
-      "To be the most advanced AI-driven ecosystem that bridges the real and digital worlds.",
+      "To be a trusted partner for businesses seeking impactful digital solutions, empowering them through innovative technology to achieve sustainable growth.",
   },
   {
     title: "Our Mission",
     description:
-      "To empower businesses, innovators, and cosmic explorers with quantum-level AI solutions that redefine how we live, work, and connect—on Earth and beyond.",
+      "To deliver exceptional software solutions that solve real-world problems and drive business success through a combination of technical expertise, strategic thinking, and a commitment to quality.",
   },
   {
     title: "Our Journey",
     description:
-      "Born from the cosmic alignment of tech visionaries, aicompany has rapidly evolved into a global technology powerhouse. Our portfolio spans startups to Fortune 500 firms, from local communities to off-world research stations.",
+      "From app development and game design to AI solutions and data analytics, Techinnoveao has evolved into a go-to technology partner for companies across diverse industries, committed to delivering excellence at every step.",
   },
 ];
 

@@ -48,7 +48,7 @@ const HomePage = () => {
           </h1>
           <p className="desc max-w-[40rem] text-center" data-aos="fade-up">
             Step beyond the ordinary and embrace the next evolution of
-            intelligence. aicompany is more than a solution—it is a living
+            intelligence. Techinnoveao is more than a solution—it is a living
             intelligence network that fuses AI, quantum knowledge, and cosmic
             consciousness.
           </p>
