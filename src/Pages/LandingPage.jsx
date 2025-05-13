@@ -47,7 +47,7 @@ const LandingPage = ({ page }) => {
           <div
             className={`absolute ${
               isDarkMode ? `flex` : "hidden"
-            } top-[41rem] blur-3xl -left-[47rem] w-full h-full bg-footerBackground  `}
+            } top-[41rem] blur-3xl -left-[49rem] w-full h-full bg-footerBackground  `}
           />
           <Portfolio page={page} />
           <section className="relative z-10 w-full h-full">

@@ -8,11 +8,11 @@ const Footer = () => {
   const isDarkMode = theme === "dark";
 
   return (
-    <div className="relative bg-primary/50 dark:bg-darkblack z-20 overflow-hidden">
+    <div className="relative bg-primary/50 dark:bg-gray-600 z-20 overflow-hidden">
       <div
         className={`absolute ${
           isDarkMode ? `flex` : "hidden"
-        } -bottom-[15rem] blur-3xl left-0 w-full h-full bg-footerBackground -z-10 `}
+        } -bottom-[15rem] blur-3xl left-0 w-full h-full  -z-10 `}
       />
       <footer className="w-full   py-16  z-10">
         <div className="wrapper">

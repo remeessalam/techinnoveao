@@ -9,12 +9,13 @@ const LandingFooter = () => {
   const isDarkMode = theme === "dark";
 
   return (
-    <div className="relative bg-primary dark:bg-darkblack z-20 overflow-hidden">
+    <div className="relative bg-primary/50 dark:bg-gray-600 z-20 overflow-hidden">
       <div
         className={`absolute ${
           isDarkMode ? `flex` : "hidden"
-        } -bottom-[15rem] blur-3xl left-0 w-full h-full bg-footerBackground -z-10 `}
+        } -bottom-[15rem] blur-3xl left-0 w-full h-full  -z-10 `}
       />
+      {/* bg-footerBackground */}
       <footer className="w-full  px-4 py-16 md:px-8 z-10">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3  xl:grid-cols-4 gap-8 items-start">

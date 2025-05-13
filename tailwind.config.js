@@ -14,7 +14,7 @@ export default {
       },
       backgroundImage: {
         footerBackground:
-          "radial-gradient(circle, rgb(255, 177, 9) 0%, rgba(2,8,22,1) 58%);",
+          "radial-gradient(circle, rgb(255, 177, 9) 0%, rgba(2,8,22,1) 28%);",
         background:
           "radial-gradient(circle, rgba(255,177,9,1) 0%, rgba(2,8,22,1) 40%);",
         // "linear-gradient(0deg, rgba(0,100,158,1) 0%, rgba(2,8,22,1) 60%);",

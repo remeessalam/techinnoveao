@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import {
   appPortfolio,
-  blockchainPortfolio,
+  // blockchainPortfolio,
   webPortfolio,
 } from "../util/constant";
 
@@ -11,7 +11,7 @@ const Portfolio = () => {
   const portfolioTypes = [
     { key: "web", label: "Web Projects" },
     { key: "app", label: "Mobile Apps" },
-    { key: "blockchain", label: "Blockchain" },
+    // { key: "blockchain", label: "Blockchain" },
   ];
 
   const getCurrentPortfolio = () => {
@@ -20,8 +20,8 @@ const Portfolio = () => {
         return webPortfolio;
       case "app":
         return appPortfolio;
-      case "blockchain":
-        return blockchainPortfolio;
+      // case "blockchain":
+      //   return blockchainPortfolio;
       default:
         return webPortfolio;
     }
@@ -68,7 +68,7 @@ const Portfolio = () => {
                     href={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-blue-600 hover:text-blue-800 transition-colors"
+                    className="text-orange-400 hover:text-primary transition-colors"
                   >
                     View Project
                   </a>
