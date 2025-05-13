@@ -22,7 +22,7 @@ const Header = () => {
   const isActive = (path) => location.pathname === path;
 
   return (
-    <nav className="fixed w-full top-0 !z-50 bg-white sshadow-md">
+    <nav className="fixed w-full top-0 !z-50 bg-white shadow-md">
       <div className="wrapper">
         <div className="flex items-center justify-between py-5">
           <div className="flex-shrink-0">

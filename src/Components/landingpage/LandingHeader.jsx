@@ -18,7 +18,7 @@ const LandingHeader = () => {
   //   navigate("/contact-us");
   // };
   return (
-    <nav className="fixed w-full top-0 !z-50 bg-primary dark:bg-darkblack shadow-md">
+    <nav className="fixed w-full top-0 !z-50 bg-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between py-5">
           <div className="flex-shrink-0">
@@ -30,7 +30,7 @@ const LandingHeader = () => {
           <div className="hidden md:flex items-center space-x-8">
             <Link
               to="/"
-              className="text-white hover:text-blue-300 dark:hover:text-primary"
+              className="text-black hover:text-primary dark:hover:text-primary"
             >
               Home
             </Link>
@@ -41,8 +41,8 @@ const LandingHeader = () => {
               smooth={true}
               offset={-140}
               duration={1000}
-              activeClass="active-link text-blue-300 dark:text-primary"
-              className="text-white hover:text-blue-300 dark:hover:text-primary"
+              activeClass="active-link text-primary dark:text-primary"
+              className="text-black hover:text-primary dark:hover:text-primary"
             >
               About Us
             </Scrolllink>
@@ -53,15 +53,15 @@ const LandingHeader = () => {
               smooth={true}
               offset={-140}
               duration={1000}
-              activeClass="active-link text-blue-300 dark:text-primary"
-              className="text-white hover:text-blue-300 dark:hover:text-primary"
+              activeClass="active-link text-primary dark:text-primary"
+              className="text-black hover:text-primary dark:hover:text-primary"
             >
               Services
             </Scrolllink>
 
             <Link
               to="/blog"
-              className="text-white hover:text-blue-300 dark:hover:text-primary"
+              className="text-black hover:text-primary dark:hover:text-primary"
             >
               Blog
             </Link>
@@ -96,7 +96,7 @@ const LandingHeader = () => {
             </button>
             <button
               onClick={toggleMenu}
-              className="text-gray-900 dark:text-white"
+              className="text-gray-900 dark:text-black"
               aria-label="Toggle menu"
             >
               {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -123,7 +123,7 @@ const LandingHeader = () => {
               smooth={true}
               offset={-140}
               duration={1000}
-              activeClass="active-link text-blue-300 dark:text-primary"
+              activeClass="active-link text-gray-300 dark:text-primary"
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800"
             >
               About Us
@@ -136,7 +136,7 @@ const LandingHeader = () => {
               smooth={true}
               offset={-140}
               duration={1000}
-              activeClass="active-link text-blue-300 dark:text-primary"
+              activeClass="active-link text-gray-300 dark:text-primary"
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800"
             >
               Services
@@ -155,7 +155,7 @@ const LandingHeader = () => {
               smooth={true}
               offset={-140}
               duration={1000}
-              className="w-full  text-center bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-600 transition-colors"
+              className="w-full  text-center bg-gray-500 text-white px-6 py-2 rounded-md hover:bg-gray-600 transition-colors"
             >
               Contact Us
             </Scrolllink>
