@@ -70,7 +70,7 @@ export const companyDetails = {
       icon: FaLinkedin,
     },
     {
-      href: "",
+      href: "https://www.instagram.com/tech.innoveao.infusions?igsh=MXF3NG5ncDczN21iag%3D%3D&utm_source=qr",
       icon: FaInstagram,
     },
     { href: "", icon: FaXTwitter },
@@ -80,7 +80,7 @@ export const companyDetails = {
     },
   ],
   whatsapp:
-    "https://api.whatsapp.com/send/?phone=9810600446&text&type=phone_number&app_absent=0",
+    "https://api.whatsapp.com/send/?phone=9667868219&text&type=phone_number&app_absent=0",
 };
 
 export const services = [
