@@ -8,7 +8,7 @@ const Footer = () => {
   const isDarkMode = theme === "dark";
 
   return (
-    <div className="relative bg-primary/50 dark:bg-gray-600 z-20 overflow-hidden">
+    <div className="relative bg-primary/50 dark:bg-black z-20 overflow-hidden">
       <div
         className={`absolute ${
           isDarkMode ? `flex` : "hidden"
@@ -18,7 +18,7 @@ const Footer = () => {
         <div className="wrapper">
           <div className="grid grid-cols-1 md:grid-cols-3  xl:grid-cols-4 gap-8 items-start">
             <div className="col-span-1">
-              <div className="flex items-center gap-2 mb-4">
+              <div className="flex items-center gap-2 mb-4 dark:bg-white w-fit p-2 rounded-xl">
                 <img src={logo} alt="logo" className="w-[6.4rem]" />
               </div>
               <p className="text-white text-sm max-w-xs">

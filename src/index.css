@@ -16,7 +16,7 @@ html {
   background-color: #000000;
   overflow-x: hidden;
 }
-/* .videoplayer {
+.videoplayer {
   width: 100vw !important;
   height: 100vh !important;
 }
@@ -36,9 +36,9 @@ html {
 @media only screen and (max-width: 767px) {
   .videoplayer {
     width: 100vw;
-    height: 45vh !important;
+    height: 55vh !important;
   }
-} */
+}
 
 @layer utilities {
   .wrapper {

@@ -22,11 +22,11 @@ const Header = () => {
   const isActive = (path) => location.pathname === path;
 
   return (
-    <nav className="fixed w-full top-0 !z-50 bg-white shadow-md">
+    <nav className="fixed w-full max-w-screen top-0 !z-50 bg-white dark:bg-darkbackground shadow-md">
       <div className="wrapper">
         <div className="flex items-center justify-between py-5">
           <div className="flex-shrink-0">
-            <div className=" w-auto text-white">
+            <div className=" w-auto text-white dark:bg-white dark:p-2 rounded-xl">
               <img src={logo} alt="logo" className="w-[6.4rem] " />
             </div>
           </div>
@@ -37,7 +37,7 @@ const Header = () => {
                 <Link
                   key={index}
                   to={path}
-                  className={`text-black hover:text-primary dark:hover:text-primary ${
+                  className={`text-black dark:text-white hover:text-primary dark:hover:text-primary ${
                     isActive(path) ? "text-primary dark:text-primary" : ""
                   }`}
                 >
@@ -77,9 +77,9 @@ const Header = () => {
               aria-label="Toggle menu"
             >
               {isMenuOpen ? (
-                <X size={24} className="text=black" />
+                <X size={24} className="text-black dark:text-white" />
               ) : (
-                <Menu size={24} className="text-black" />
+                <Menu size={24} className="text-black dark:text-white" />
               )}
             </button>
           </div>
@@ -87,8 +87,8 @@ const Header = () => {
       </div>
 
       {isMenuOpen && (
-        <div className="md:hidden">
-          <div className="px-2 pt-2 pb-3 space-y-1 bg-white dark:bg-gray-900">
+        <div className="flex w-full md:hidden " style={{ maxWidth: "100vw" }}>
+          <div className="px-2 pt-2 pb-3 space-y-1 bg-white dark:bg-gray-900 w-full">
             {["/", "/about-us", "/services", "/portfolio", "/blog"].map(
               (path, index) => (
                 <Link
